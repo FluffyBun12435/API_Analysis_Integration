@@ -10,7 +10,7 @@ print(df)
 # 2. 存储数据（DB 逻辑）
 if df is not None:
     # 填入你之前的本地数据库密码
-    db = DBHandler(host='localhost', user='root', password='Pyl20010518!', database='gastro_analysis')
+    db = DBHandler(host='localhost', user='root', password='****', database='gastro_analysis')
     db.save_dataframe(df, 'my_github_repos')
 
 # 在 main.py 最底部添加，用于验证
